@@ -1,7 +1,7 @@
 <template>
     <div>
-    	<p>{{message.message}}</p>
-    	<p>{{message.user.name}}</p>
+    	<p><span class="glyphicon glyphicon-user" aria-hidden="true"></span><b>{{message.user.name}}</b></p>
+    	<p><span class="glyphicon glyphicon-comment"></span>{{message.message}}</p>
     </div>
 </template>
 
